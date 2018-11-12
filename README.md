@@ -2,7 +2,7 @@
 
 Como instalar o ambiente de desenvolvimento:
 
-** Dependências: **
+**Dependências:**
 
 1- Instale o php na sua maquina;<br><br>
 2- Caso for apenas o php (recomendado): <br> <br>
