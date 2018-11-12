@@ -38,24 +38,24 @@
     </div>
     <!-- TODO: Abaixo pretendo colocar alguns relatorios rapidos -->
     <div class="card-deck mt-5 mx-5">
-        <div class="card text-center">
+        <div class="card text-center"  >
             <div class="card-body">
                 <p class="card-title text-muted">Você tem</p>
-                <h3 class="card-text color-green"><? echo $cont; ?></h3>
+                <h3 class="card-text color-green"><a href = "eventos.php"> <? echo $cont; ?></a></h3>
                 <p class="card-text">Eventos delegados pra você.</p>
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center" >
             <div class="card-body">
                 <p class="card-title text-muted">Você fez</p>
-                <h3 class="card-text color-green"><? echo $cont2; ?></h3>
+                <h3 class="card-text color-green"><a href = "checkins.php"><? echo $cont2; ?></a></h3>
                 <p class="card-text">Check-ins em eventos.</p>
             </div>
         </div>
         <div class="card text-center">
             <div class="card-body">
                 <p class="card-title text-muted">Você comentou em</p>
-                <h3 class="card-text color-green"><? echo $cont3; ?></h3>
+                <h3 class="card-text color-green"><a href = "checkins.php"><? echo $cont3; ?><a></h3>
                 <p class="card-text">Eventos diferentes.</p>
             </div>
         </div>
