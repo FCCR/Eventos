@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i');
+
+*{
+    transition: all .15s ease-in-out; 
+}
+
+body{
+    font-family: 'Lato', sans-serif !important;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+hr{
+    align-items: center;
+    width: 70%;
+    border-top: 1px solid rgba(0, 128, 0, 0.1)!important;
+}
+
+.vh-100{
+    height: 100vh !important;
+}
+
+.w-90{
+    width: 90% !important;
+}
+
+.w-80{
+    width: 80% !important;
+}
+
+.bg-green{
+    background-color: #27ae60 !important;
+}
+
+.color-green{
+    color: #00554f;
+}
+
+.navbar-bg{
+    background-color: rgba(245, 246, 250, 0.6) !important;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 2px 3px 0px rgba(0, 128, 0, 0.1);
+}
+
+.block {
+    text-align: center;
+}
+  
+.block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; 
+}
+
+.centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.btn-link{
+    color: #00554f !important;
+}
+.btn-link:hover{
+    color: white;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+.btn-link:focus{
+    color: white;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: font-weight .15s ease-in-out;
+}
+.btn-link:active{
+    color: white;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: font-weight .15s ease-in-out;
+}
+
+.profile img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    padding: 35px 35px !important;
+    background-color: transparent !important;
+    padding-bottom: 0 !important;
+}
+
+.welcome{
+    text-align: center;
+    padding-bottom: 0 !important;
+}
+
+.name{
+    color: #00554f;
+}
+
+.card{
+    background-color: rgba(245, 246, 250, 0.6) !important;
+    border-color: rgba(0, 128, 0, 0.1)!important;
+    box-shadow: -4px 4px 5px -4px rgba(0,0,0,0.75);
+}
+
+.card:hover{
+    background-color: #fff !important;
+    border-color: rgba(0, 85, 79, 0.28) !important;
+    color: #00554f;
+    transition: all .15s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-check{
+    color: green !important;
+}
+
+.fa-times{
+    color: grey !important;
+}
+
+
+.comentario{
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 5px;
+}
+.comentario:focus{
+    outline: none !important;
+    border-color: #27ae60;
+    transition: border-color .15s ease-in-out;
+}
+.toggleMenu {
+    display: initial;
+    transition: border-color .15s ease-in-out;
+}
+.coment:hover .btn-send{
+    display: initial;
+    transition: border-color .15s display .15s ease-in-out;
+}
+input.comentario:focus + button.btn-send{
+    display: initial;
+    transition: border-color .15s ease-in-out;
+}
+button.btn-send{
+    display: none;
+    display: true;
+    cursor: pointer;
+    color: #27ae60;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-nav > li.nav-item.active > a.nav-link {
+    color: #00554f;
+    font-weight: 400;
+}
+
+/*  
+*   classes do slideshow a seguir
+*   nao me perguntem sobre isso
+*   nao fui eu que fiz
+*   nao me xinguem
+*   eu sou legal, eu juro
+*/
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fadeInOut {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
