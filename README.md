@@ -2,7 +2,7 @@
 
 Como instalar o ambiente de desenvolvimento:
 
-1- Instale o php na sua maquina;<br>
+1- Instale o php na sua maquina;<br><br>
 2- Caso for apenas o php (recomendado): <br> <br>
   2.1 - Clone este repositorio;<br>
   2.2 - Abra o terminal no repositorio clonado;<br>
